@@ -19,4 +19,4 @@ function countUnique(array) {
 }
 
 let result = countUnique([1, 2, 3, 4, 5, 6, 7, 8, 8, 8, 9, 9, 11, 22]);
-console.log(result);
+ console.log(result);
