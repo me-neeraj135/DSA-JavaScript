@@ -28,6 +28,6 @@ function checkSquare(arr1, arr2) {
   return true;
 }
 
-let result = checkSquare([1, 2, 4, 2], [1, 4, 4, 16]);
+let result = checkSquare([1, 2, 4, 2], [1, 4, 4, 5]);
 
 console.log(result);
