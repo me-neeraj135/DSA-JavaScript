@@ -35,3 +35,5 @@ let longestSubString = function (str) {
 
 let res = longestSubString(`abcabcbb`);
 console.log(res);
+console.log(res);
+
