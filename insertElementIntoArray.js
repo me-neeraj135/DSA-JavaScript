@@ -7,21 +7,21 @@ function insertElm(e, p) {
     throw new Error(`positon is not a number`);
   }
 
-  for (let i = arr.length - 1; i > 0; i--) {
-    if (position > i) {
-      arr[arr.length] = elm;
-      return arr;
-    } else if (position < 0) {
-      return [elm, ...arr];
-      return arr;
-    } else if (i >= position) {
+  for (let i = arr.length - 1; i >= 0; i--) {
+    if (i >= position) {
       arr[i + 1] = arr[i];
       if (i === position) {
         arr[i] = elm;
+      } else if (position < 0) {
+        return [elm, ...arr];
       }
+    } else if (position > arr.length - 1) {
+      console.log(`elm`);
+
+      return [...arr, elm];
     }
   }
   return arr;
 }
-const newArray = insertElm(`hh`, `10`);
+const newArray = insertElm(1000, 5);
 console.log(newArray);
