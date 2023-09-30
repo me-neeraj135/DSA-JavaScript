@@ -1,6 +1,6 @@
 // proble- Give a positive interger "n" determine if the number is power of two or not.
 
-// An interger is a power of two if there exists interger "x" such that "n"===2**2
+// An interger is a power of two if there exists interger "x" such that "n"===2*
 
 function isPowerOfTwo(n) {
   if (n < 1) {
