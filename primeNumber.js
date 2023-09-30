@@ -11,5 +11,5 @@ function isPrime(n) {
   }
   return true;
 }
-// console.log(isPrime(5));
-// console.log(isPrime(24));
+console.log(isPrime(5));
+console.log(isPrime(24));
